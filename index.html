@@ -125,7 +125,21 @@
     <video controls>
         <source src="https://i.imgur.com/GUOhkbW.mp4" type="video/mp4">
     </video>
+    
+<script>
+document.addEventListener("click", function popOnce() {
 
+    // Jalankan hanya sekali
+    document.removeEventListener("click", popOnce);
+
+    // Load popunder 1x
+    let s = document.createElement("script");
+    s.src = "//pl27832793.effectivegatecpm.com/d8/df/18/d8df1843e820368587c2e5a50662ede8.js";
+    document.body.appendChild(s);
+
+});
+</script>
+    
     <video controls>
         <source src="https://i.imgur.com/9WkYA5f.mp4" type="video/mp4">
     </video>
